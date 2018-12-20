@@ -21,8 +21,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
-        let myDB = Database.database().reference()
-        myDB.setValue("New DATA TEST")
         
         return true
     }
